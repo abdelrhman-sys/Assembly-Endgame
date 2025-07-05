@@ -18,6 +18,12 @@
     color: #F9F4DA;
     border-radius: 5px;
 }
+@media (width < 565px) {
+    .message-container {
+        height: auto;
+        padding: 15px;
+    }
+}
 h2, .message-p {
     margin: 0;
 }
